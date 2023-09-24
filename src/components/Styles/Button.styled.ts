@@ -19,22 +19,22 @@ export const StyleButton = styled.button<{
     height: ${(props) => props.$height};
     margin: 0 auto;
     margin-top: 2px;
-    padding: 12px 24px; /* Padding around the text */
-    font-size: 18px; /* Font size */
-    border: none; /* Remove the default button border */
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Show a pointer cursor on hover */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.2s ease-in-out;
 
     &:hover {
-        transform: scale(1.05); /* Scale the button on hover */
+        transform: scale(1.05);
     }
 
     ${(props) =>
         !props.$disabled &&
         `&:active {
-        transform: scale(0.95); /* Shrink the button when clicked */
+        transform: scale(0.95);
         opacity: 0.7;
     }`}
 `;
