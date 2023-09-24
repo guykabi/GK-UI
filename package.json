@@ -34,5 +34,8 @@
     "bugs": {
         "url": "https://github.com/guykabi/GK-UI.git"
     },
-    "homepage": "https://github.com/guykabi/GK-UI.git"
+    "homepage": "https://github.com/guykabi/GK-UI.git",
+    "dependencies": {
+        "styled-components": "^6.0.8"
+    }
 }
