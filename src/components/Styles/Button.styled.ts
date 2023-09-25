@@ -8,7 +8,7 @@ export const StyleButton = styled.button<{
     $fontWeight?: string | number;
     $disabled?: boolean;
 }>`
-    background-color: ${(props) => props.$bg || '#b4b4b4'}; /* Green background color */
+    background-color: ${(props) => props.$bg || '#b4b4b4'};
     color: ${(props) => props.$color || 'black'};
     font-weight: ${(props) => props.$fontWeight || '300'};
     min-width: max-content;
